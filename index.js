@@ -1,6 +1,7 @@
 class Guac {
-  constructor(ingredients = ['avacado']) {
+  constructor(ingredients = ['avacado'], colour) {
     this.ingredients = ingredients;
+    this.colour = colour;
   }
 
   laugh() {
