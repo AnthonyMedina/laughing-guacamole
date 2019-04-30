@@ -1,5 +1,7 @@
 class Guac {
-  constructor() {}
+  constructor(colour) {
+    this.colour = colour;
+  }
 
   laugh() {
     console.log('heheheh');
